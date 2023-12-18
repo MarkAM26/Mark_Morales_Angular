@@ -1,0 +1,9 @@
+<h2>Top 5 Footballers</h2>
+<div class="footballers-menu">
+    <a *ngFor="let footballer of footballers"  
+      routerLink="/detail/{{footballer.id}}">
+      {{footballer.name}}
+    </a>
+</div>
+
+<app-footballer-search></app-footballer-search>

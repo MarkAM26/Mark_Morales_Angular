@@ -1,0 +1,21 @@
+<h2>23/24 UEFA Champions League Top Goalscorers</h2>
+
+<div>
+    <label for="new-footballer">Footballer name: </label>
+    <input id="new-footballer" #footballerName />
+  
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button type="button" class="add-button" (click)="add(footballerName.value); footballerName.value=''">
+      Add footballer
+    </button>
+</div>
+
+<ul class="footballers">
+  <li *ngFor="let footballer of footballers">
+    <a routerLink="/detail/{{footballer.id}}">
+        <span class="badge">{{footballer.id}}</span> {{footballer.name}}
+    </a>
+    <button type="button" class="delete" title="delete footballer"
+      (click)="delete(footballer)">x</button>
+  </li>
+</ul>
