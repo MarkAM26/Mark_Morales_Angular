@@ -1,13 +1,27 @@
-# Mark_Morales_Angular 
-FutureIcons Application using Angular Typescript
+# FutureIcons
 
-I am demonstrating my application development skills using angular over in my visual studio code, in what I present is called Future Icons. As a soccer enthusiast, one of the most important and impactful sport worldwide. Soccer involves the entertainment and sport business along with other businesses that go hand in hand within club level. Athletes are in the spotlight of the sport as they are recognized thorough their hard work especially in winning important games. Which is why in my application I decided to highlight the top 10 footballers during this year 2023 - 2024 UEFA champions league. This application demonstrates the fundamentals of Angular as I have set up a local Angular development environment using Angular CLI to develop the application. 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
-This Future Icons application helps built a sports agency list in which agents and marketers can use to choose the next big star to promote. As a data driven application, Future Icons gets a list of footballers, displays the footballers in a list, gives you the ability to edit a selected footballer’s details and navigates between different views of footballer data. FutureICons is an interactive webpage. The Dashboard view highlights the top 5 footballers in this year’s UEFA champions league. Highlighted thanks to their goal contribution tally in group stages games. The Dashboard and Footballers links in the dashboard helps navigate between views.If you click a dashboard footballer, for example, “Antione Griezmann”, the router opens a “Footballer Details” view where you get the opportunity to change the footballer’s name. Clicking the “Back” button returns you to the Dashboard. Links at the top take you to either of views. If you click “Footballers”, the application displays a list of UEFA’s Champions league top goal scorers. When you click a different footballer’s name, the read-only mini detail beneath the list reflects the new choice. You can click the “view details” button to drill into the editable details of the selected footballer.
+## Development server
 
-Overall, this Future Icons application gives you the opportunity to navigate a list of data and edit the list as the tournament goes into its final stage leading to this year’s UEFA Champions League final. I used a total of 5 components to create this application. Which includes dashboard, footballer-detail, footballer-search, footballers, and messages, along with data sharing services.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-https://youtu.be/8bjjWjRgi6A?si=hG4LgorNZYeU2JRh
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
