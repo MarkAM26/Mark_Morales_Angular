@@ -1,3 +1,9 @@
+# Description & Youtube URL
+I will be going over my application development skills using angular over in my visual studio code, in what I present is called Future Icons. As a soccer enthusiast, one of the most important and impactful sport worldwide. Soccer involves the entertainment and sport business along with other businesses that go hand in hand within club level. Athletes are in the spotlight of the sport as they are recognized thorough their hard work especially in winning important games. Which is why in my application I decided to highlight the top 10 footballers during this year 2023 - 2024 UEFA champions league. Which is one of the biggest tournaments worldwide in club level right next to the world cup. This application demonstrates the fundamentals of Angular as I have set up a local Angular development environment using Angular CLI to develop the application.
+
+https://youtu.be/8bjjWjRgi6A?si=YKl5gnfBxBWJWlBB
+
+
 # FutureIcons
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
